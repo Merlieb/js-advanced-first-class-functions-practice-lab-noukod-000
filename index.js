@@ -26,20 +26,6 @@ function driversByName(drivers){
     return a.name.localeCompare(b.name);
   })
 }
-//
-// function totalRevenue(drivers){
-//   return drivers.reduce(function(total,currentDriver){
-//     return total+currentDriver.revenue
-//   },0)
-// }
-//
-// function averageRevenue(drivers){
-//   return totalRevenue(drivers)/drivers.length
-// }
-
-
-
-
 
 const drivers = [
     { name: 'Bobby',   hometown: 'Pittsburgh',  revenue: 3000 },
